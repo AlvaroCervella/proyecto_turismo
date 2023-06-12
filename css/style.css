@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+    background-color: #fff59d;
+}
+
+
+.header{
+    background-color: #1b3039;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+/*efectos logo*/
+
+.header .logo{
+    cursor: pointer;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.header .logo img{
+    height: 80px;
+    /*width: auto;*/
+    border-radius: 70%;
+    transition: 0.3s;
+    border: 3px solid #eceff1;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+    
+}
+
+.titleLogo{
+    color: #eceff1;
+    display: inline;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.header .titleLogo:hover{
+    transform: scale(1.1);
+    color: #ffbc0e
+    }
+
+
+/*lista menu*/
+
+.header .menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 25px;
+}
+
+.header .menu a{
+    font-size: 700;
+    color: #eceff1;
+    text-decoration: none;
+}
+
+.header .menu li:hover{
+    transform: scale(1.1);
+}
+
+.header .menu li a:hover{
+    color: #ffbc0e
+}
+
+/*boton*/
+
+.header .btn button{
+    margin-left: 20px;
+    font-size: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+.header .btn button:hover{
+    background-color: #e2f1f8;
+    color: #ffbc0e;
+    transform: scale(1.1);
+    }
+
+/*{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background-color: #1b3039;
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.imgLogo{
+    position: relative;
+    margin: 1.5rem;
+    padding: 5px;
+}
+
+.titleLogo{
+    display: inline-flex;
+    position: relative;
+    text-align: center;
+    
+}
+
+.titleHeader{
+    align-self: center;
+}
+
+.menu{
+    display: inline;
+    align-self: flex-end;
+    padding: 10px   ;
+
+}
+
+*/
+
+/*body cajas*/
+
+.cajas{
+    /*position: fixed;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    
+}
+
+.contenedor{
+    
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0b578ac7;
+    margin: 10px ;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.contenedor .btn {
+    margin-left: 20px;
+    font-size: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+.contenedor .btn:hover{
+    background-color: #e2f1f8;
+    color: #0f7506;
+    transform: scale(1.1);
+    text-transform: capitalize;
+    }
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1b3039;
+    padding: 20px 10%;
+    color: #eceff1;
+    font-size: 700;
+    
+}
+
+.listFooter{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    padding: 0 px 50px;
+    
+}
+
+.menuFooter{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 700;
+    color: #eceff1;
+    
+}
+
+.menuFooter:hover{
+    transform: scale(1.2);
+    color: #ffbc0e
+    }
